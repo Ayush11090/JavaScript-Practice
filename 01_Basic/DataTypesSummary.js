@@ -52,3 +52,30 @@ const myFunction = function() {
 }
 
 console.log(typeof hero);
+
+
+
+// stack (premitive type)    assigment generste copy
+// heap  (Non premitive)     assignment assigm refrence
+
+
+let myDomain = "computer.com"
+
+let newDomain = myDomain
+
+newDomain = "BTECHWALA.COM"
+
+console.log(myDomain);
+console.log(newDomain);
+
+let userone = {
+    name : "ayush",
+    age : 34,
+
+}
+let usertwo = userone
+
+usertwo.age = 45
+
+console.log(userone.age);
+console.log(usertwo.age);
