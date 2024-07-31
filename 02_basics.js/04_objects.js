@@ -77,7 +77,7 @@ console.log(instructor);
 // navbar(company = "hitesh")
 
 
-// JSON
+//JSON
 
 // {
 //     "name": "hitesh",
